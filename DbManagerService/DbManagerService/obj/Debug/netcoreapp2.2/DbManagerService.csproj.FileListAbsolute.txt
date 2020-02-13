@@ -1,0 +1,3 @@
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\DbManagerService\obj\Debug\netcoreapp2.2\DbManagerService.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\DbManagerService\obj\Debug\netcoreapp2.2\DbManagerService.AssemblyInfoInputs.cache
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\DbManagerService\obj\Debug\netcoreapp2.2\DbManagerService.AssemblyInfo.cs
