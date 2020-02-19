@@ -4445,6 +4445,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ApplicationCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "ApplicationCore": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
+          "Microsoft.Extensions.Identity.Core": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -12140,12 +12169,24 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ApplicationCore/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationCore/ApplicationCore.csproj",
+      "msbuildProject": "../ApplicationCore/ApplicationCore.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.12"
     ]
@@ -12157,9 +12198,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\DbManagerService.csproj",
-      "projectName": "DbManagerService",
-      "projectPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\DbManagerService.csproj",
+      "projectUniqueName": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\Web.csproj",
+      "projectName": "Web",
+      "projectPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\Web.csproj",
       "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\obj\\",
       "projectStyle": "PackageReference",
@@ -12179,7 +12220,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\Infrastructure\\Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12199,6 +12244,10 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[2.2.0, )"
           },

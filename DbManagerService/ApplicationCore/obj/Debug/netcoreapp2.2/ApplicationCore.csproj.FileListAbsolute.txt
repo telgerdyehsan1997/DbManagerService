@@ -1,0 +1,9 @@
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\bin\Debug\netcoreapp2.2\ApplicationCore.deps.json
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\bin\Debug\netcoreapp2.2\ApplicationCore.dll
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\bin\Debug\netcoreapp2.2\ApplicationCore.pdb
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.AssemblyInfo.cs
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.dll
+C:\Users\Ethan\Desktop\Microservices\DbManagementService\DbManagerService\DbManagerService\ApplicationCore\obj\Debug\netcoreapp2.2\ApplicationCore.pdb

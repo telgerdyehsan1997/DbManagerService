@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\DbManagerService.csproj",
-        "projectName": "DbManagerService",
+        "projectName": "Web",
         "projectPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\DbManagerService.csproj",
         "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ethan\\Desktop\\Microservices\\DbManagementService\\DbManagerService\\DbManagerService\\DbManagerService\\obj\\",
